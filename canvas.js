@@ -1,5 +1,4 @@
   function dibujar(){
-
                 var ctx = document.getElementById ('nuestroCanvas');
                 var contenido = ctx.getContext ('2d');
                 var imagenGrafica = new Image();
