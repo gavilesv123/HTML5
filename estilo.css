@@ -3,11 +3,36 @@ html, body {
         margin: 0;
         padding: 0;
       }
-      #map, #pano {
+      #pano {
         float: left;
         height: 100%;
         width: 45%;
       }
+	  #map {
+			width: 650px; 
+			height: 350px;
+			float:left;
+			margin: 10px;
+			}
+	  #video {
+		height: 350px;
+		width: 650px;		
+		float:right;
+		margin: 10px;
+	  }
+	  #grafico {
+			width: 650px;
+			height: 350px;
+			float:left;
+			margin: 10px;
+	    }
+	  #grafico2 {
+		width: 650px; 
+		height: 350px;
+		float:right;
+		margin: 10px;
+	  }
+	
      ul {
     list-style-type: none;
     margin: 0;
@@ -15,6 +40,7 @@ html, body {
     overflow: hidden;
     background-color: #333;
 }
+
 li {
     float: left;
 }

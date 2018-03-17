@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Taller tecnologia web</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script src="canvas.js" type="text/javascript"></script>
+		<meta name="viewport" content="initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body onload="dibujar()">
+		<ul>
+		  <li><a href="">Inicio</a></li>
+		  <li><a href="">Archivo</a></li>
+		  <li><a href="">Contactos</a></li>
+		  <li><a href="">Acerca de</a></li>
+		</ul>
+		<h1 align="center">
+		  Tecnologias Web
+		</h1>
+		<div id="map"> 		    
+			<script>
+			  function initMap() {
+				var uluru = {lat: -34.397, lng: 150.644};
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 8,
+				  center: uluru
+				});
+				var marker = new google.maps.Marker({
+				  position: uluru,
+				  map: map
+				});
+			  }
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzZ8Xq1EA5WOogw509Wmc0ksmiy3ghMik&callback=initMap"> 
+			</script>			
+		</div>	
+		<div id="video"> 
+			<iframe width="640" height="350" float= "right" title="YouTube video player" src="https://www.youtube.com/embed/6WeYDDlToOI" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div id="grafico">		  
+		  <img width="640" height="340" src="https://www.gcfaprendelivre.org/files/course/microsoft_excel_2010/image/l9-p1-01_p.png" alt="Smiley face" >
+		</div>
+
+		<div id="grafico2">
+		  <canvas width="640" height="340" id="nuestroCanvas" ></canvas>
+		</div>
+
+	</body>
+</html>
+
+
